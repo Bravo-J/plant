@@ -1,0 +1,29 @@
+﻿<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Planter Web Page</title>
+    <script src="/socket.io/socket.io.js"></script>
+  <link rel="stylesheet" href="./styles/styleSheet.css">
+</head>
+
+<body>
+  <button type="button" class="button button1" id="relay0" onclick="relayZero()">Relay Toggle</button>
+  <p>This controls Lights</p>
+    
+  <button type="button" class="button button2" id="relay1" onclick="relayOne()">Relay Toggle</button>
+  <p>This controls Water Pump</p>
+  
+  <button type="button" class="button three" id="analog" onclick="Thermometer.toggle">Console Read</button>
+  
+  <footer>
+    Copywrite &copy; 2017
+  </footer>
+  
+  <script src="./java/uiSocket.js"></script>
+  <script src="./java/uiAnalog.js"></script>
+  
+</body>
+  
+</body>
+</html>
